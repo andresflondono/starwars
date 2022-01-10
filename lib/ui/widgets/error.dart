@@ -10,6 +10,7 @@ class MyError extends StatelessWidget {
     return Text(
       'Failed to Load Data',
       style: Theme.of(context).textTheme.headline6!.copyWith(color: Colors.red),
+      textAlign: TextAlign.center,
     );
   }
 }
